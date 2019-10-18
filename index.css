@@ -1,0 +1,59 @@
+/* Basic Stuff */
+
+body{
+	font-family: monospace;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 13.5px;
+}
+
+/* Editing bootstrap */
+
+.navbar-nav{
+	flex-direction: row;
+}
+
+.navbar-nav>li {
+    float: none;
+    text-align: center;
+}
+
+._img-thumbnail{
+	border:none;
+}
+
+/* New Classes */
+
+._navigation{
+	border-bottom: grey solid 2px;
+}
+
+._navName{
+	font-family: monospace;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 13.5px;
+}
+
+._navItem{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+._about{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+._img-thumbnail{
+	padding: .25rem;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
