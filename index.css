@@ -57,3 +57,10 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+._proj{
+	margin-top: 10px;
+	margin
+	border-bottom: grey dashed 2px;
+	border-top: grey dashed 2px;
+}
